@@ -1,8 +1,11 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <string>
 int main(){
-    // Placeholder implementation: read all input and do nothing
-    string line;
-    while (getline(cin, line)) {}
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    std::string line;
+    while (std::getline(std::cin, line)) {
+        // discard input
+    }
     return 0;
 }
